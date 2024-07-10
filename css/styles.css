@@ -109,6 +109,11 @@ body {
   height: 200px;
   margin: 10px;
 }
+.imagen-ajustada2 {
+  width: 550px;
+  height: 350px;
+  margin: 10px;
+}
 
 .responsive-img {
   width: 100%;
