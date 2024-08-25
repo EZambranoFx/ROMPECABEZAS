@@ -107,13 +107,17 @@ body {
 .imagen-ajustada {
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: 10px auto; /* Centrar la imagen horizontalmente */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
 }
+
 .imagen-ajustada2 {
   width: 550px;
   height: 350px;
-  margin: 10px;
+  margin: 10px auto; /* Centrar la imagen horizontalmente */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
 }
+
 
 .responsive-img {
   width: 100%;
@@ -124,6 +128,12 @@ body {
   width: 100%;
   height: auto;
 }
+
+.responsive-video2 {
+  width: 100%;
+  height: auto;
+}
+
 
 hr {
   margin: 1rem 0;
@@ -320,6 +330,10 @@ kbd {
 kbd kbd {
   padding: 0;
   font-size: 1em;
+}
+
+figcaption {
+  text-align: center;
 }
 
 figure {
