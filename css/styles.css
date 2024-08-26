@@ -118,6 +118,13 @@ body {
   display: block; /* Asegura que la imagen se comporte como un bloque */
 }
 
+.imagen-ajustada3 {
+  width: 300px; /* Ancho deseado */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin: 10px auto; /* Centrar la imagen horizontalmente */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+}
+
 
 .responsive-img {
   width: 100%;
